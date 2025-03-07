@@ -9,7 +9,7 @@
     <body>
         <div class="pagina">
             <div class="parte--esquerda fundo--preto">
-                <div class="conjunto--item--menu ">
+                <div class="padding--parte--esquerda"><div class="conjunto--item--menu ">
                     <img class="icons--menu" src="./src/assets/icons/home.svg">
                     <div class="componente--item--menu texto--branco">
                         Home
@@ -17,8 +17,8 @@
                 </div>
 
                 <div class="conjunto--item--menu ">
-                    <img class="icons--menu" src="./src/assets/icons/search.svg">
-                    <div class="componente--item--menu texto--branco">
+                    <img class="icons--menu " src="./src/assets/icons/search.svg">
+                    <div class="componente--item--menu texto--cinza">
                         Search
                     </div>
                 </div>
@@ -29,31 +29,408 @@
                         Your Library
                     </div>
                 </div>
-                <br>
-                <br>
-                <div class="conjunto--item--menu ">
-                    <img class="icons--menu" src="./src/assets/icons/library.svg">
+                
+                <div class="conjunto--item--menu top--20">
+                    <img class="icons--menu" src="./src/assets/icons/create_playlist.svg">
                     <div class="componente--item--menu texto--cinza">
-                        Create Play
+                        Create Playlist
                     </div>
                 </div>
                 <div class="conjunto--item--menu ">
-                    <img class="icons--menu" src="./src/assets/icons/library.svg">
-                    <div class="componente--item--menu texto--cinza">
+                    <img class="icons--menu" src="./src/assets/icons/liked_songs.svg">
+                    <div class="componente--item--menu texto--branco">
                         Liked Song
                     </div>
                 </div>
                 
+                <div class="separator--menu"></div> <!--Separador menu esquerdo-->
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Chill mix
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Insta Hits
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Your Top Songs 2021
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Mellow Songs
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Anime Lofi & Chillhop Music
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    BG Afro "Select" Vibes
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Afro "Sekect" Vibes
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Happy Hits!
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Deep Focus
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Instrumental Study
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    OST Compilations
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Nostalgia for old Souled mill...
+                </div>
+                <div class="componente--item--secundario--menu texto--cinza">
+                    Mixed Feelings
+                </div>
+            </div>
+                
+
+                <div class="div--foto--musica--atual">
+                    <img class="foto--musica--atual" src="./src/assets/images/play-it-safe.png">
+                </div>
+
             </div>
             <div class="parte--meio fundo--degrade">
+                <div class="div--flex topo">
+                    <div class="flex--1 div--flex justify--content--start align--content--center div--icon--top">
+                        <img src="./src/assets/icons/back.svg"/>
+                        <img src="./src/assets/icons/next.svg">
+                    </div>
+                    <div class="flex--1 div--flex align--content--center justify--content--end  ">
+                        <div class="div--flex align--content--center button--perfil">
+                            <div class="div--foto--perfil div--flex align--content--center"><img class="foto--perfil" src="./src/assets/images/profile.png">
+                            </div>
+                            <div class="nome--perfil flex--4 div--flex flex--direction--column justify--content--center align--content--center">
+                                pproenca
+                            </div>
+                            <div class="flex--1 align--content--center icon--perfil"> 
+                                <img src="./src/assets/icons/down-profile.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="titulo--meio">
+                    Good Afternoon
+                </div>
+                <div class="recent--played div--flex flex--direction--column">
+                    <div class="div--flex flex--direction--row lista--estilos--musicais">
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/chill-mix.png"/>
+                            </div>
+                            <div class="nome--estilo--musical div--flex flex--direction--row ">
+                                Chill Mix
+                            </div>
+                        </div>
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/daily-mix-1.png"/>
+                            </div>
+                            <div class="flex--4 nome--estilo--musical div--flex flex--direction--row">
+                                Daily Mix 1
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="div--flex flex--direction--row lista--estilos--musicais">
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/daily-mix-4.png"/>
+                            </div>
+                            <div class="flex--4 nome--estilo--musical div--flex flex--direction--row">
+                                Daily Mix 4
+                            </div>
+                        </div>
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/daily-mix-5.png"/>
+                            </div>
+                            <div class="flex--4 nome--estilo--musical div--flex flex--direction--row">
+                                Daily Mix 5
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="div--flex flex--direction--row lista--estilos--musicais">
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/folk&acoustic-mix.png"/>
+                            </div>
+                            <div class="flex--4 nome--estilo--musical div--flex flex--direction--row">
+                                Folk & Acoustic
+                            </div>
+                        </div>
+                        <div class="flex--1 div--flex flex--direction--row div--estilo--musical">
+                            <div class="foto--estilo--musical">
+                                <img class="imagem--estilo--musical" src="./src/assets/images/pop-mix.png"/>
+                            </div>
+                            <div class="flex--4 nome--estilo--musical div--flex flex--direction--row align--content--center">
+                                Pop Mix
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>                    
+                    
+                    
+                    
+                </div>
 
+                <div class="div--bloco--personalizado div-flex flex--direction--column">
+                   <div  class="div--flex">
+                    <div class="div--flex flex--1 ">
+                        <div class="titulo--bloco--personalizado">Your top songs</div>
+                    </div>
+                    <div class="div--flex flex--1 justify--content--end conteiner--see--all">
+                    <div class="texto--see--all flex--1">See All</div>
+                   </div>
+                </div>
+                    <div class="div--flex lista--estilos--personalizados">
+
+                        <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                            <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                <img class="foto--estilo--personalizado" src="./src/assets/images/indie-mix.png">
+                            </div>
+                            <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                <div class="nome--estilo--personalizado">
+                                    Indie Mix
+                                </div>
+                                <div class="componente--item--secundario--menu texto--cinza">
+                                    Julia Wolf, Khalid, ayokay and more
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                            <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                <img class="foto--estilo--personalizado" src="./src/assets/images/pop-mix.png">
+                            </div>
+                            <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                <div class="nome--estilo--personalizado">
+                                    Pop Mix
+                                </div>
+                                <div class="componente--item--secundario--menu texto--cinza">
+                                    Hey Violet, VÉRITÉ, Timeflies and more
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                            <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                <img class="foto--estilo--personalizado" src="./src/assets/images/pheelz-mix.png">
+                            </div>
+                            <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                <div class="nome--estilo--personalizado">
+                                    Pheelz Mix
+                                </div>
+                                <div class="componente--item--secundario--menu texto--cinza">
+                                    WizKid, Asake, Tiwa Savage and more
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                            <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                <img class="foto--estilo--personalizado" src="./src/assets/images/chill-mix.png">
+                            </div>
+                            <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                <div class="nome--estilo--personalizado">
+                                    Chill Mix
+                                </div>
+                                <div class="componente--item--secundario--menu texto--cinza">
+                                    Joywave, The xx, The Neighbourhood and more
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="div--bloco--personalizado div-flex flex--direction--column">
+                    <div  class="div--flex">
+                     <div class="div--flex flex--1 ">
+                         <div class="titulo--bloco--personalizado">Jump back in</div>
+                     </div>
+                     <div class="div--flex flex--1 justify--content--end conteiner--see--all">
+                     <div class="texto--see--all flex--1">See All</div>
+                    </div>
+                 </div>
+                     <div class="div--flex lista--estilos--personalizados">
+ 
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/indie-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Indie Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Julia Wolf, Khalid, ayokay and more
+                                 </div>
+                             </div>
+                             
+                             
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/pop-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Pop Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Hey Violet, VÉRITÉ, Timeflies and more
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/pheelz-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Pheelz Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     WizKid, Asake, Tiwa Savage and more
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/chill-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Chill Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Joywave, The xx, The Neighbourhood and more
+                                 </div>
+                             </div>
+                         </div>
+ 
+                     </div>
+                     
+                 </div>
+                 <div class="div--bloco--personalizado div-flex flex--direction--column">
+                    <div  class="div--flex">
+                     <div class="div--flex flex--1 ">
+                         <div class="titulo--bloco--personalizado">Uniquely yours</div>
+                     </div>
+                     <div class="div--flex flex--1 justify--content--end conteiner--see--all">
+                     <div class="texto--see--all flex--1">See All</div>
+                    </div>
+                 </div>
+                     <div class="div--flex lista--estilos--personalizados">
+ 
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/indie-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Indie Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Julia Wolf, Khalid, ayokay and more
+                                 </div>
+                             </div>
+                             
+                             
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/pop-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Pop Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Hey Violet, VÉRITÉ, Timeflies and more
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/pheelz-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Pheelz Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     WizKid, Asake, Tiwa Savage and more
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="bloco--opcao--personalizada flex--1 div--flex flex--direction--column">
+                             <div class="conteiner--foto--estilo--personalizado justify--content--center div--flex flex--3">
+                                 <img class="foto--estilo--personalizado" src="./src/assets/images/chill-mix.png">
+                             </div>
+                             <div class="descricao--estilo--personalizado div--flex flex--2 flex--direction--column">
+                                 <div class="nome--estilo--personalizado">
+                                     Chill Mix
+                                 </div>
+                                 <div class="componente--item--secundario--menu texto--cinza">
+                                     Joywave, The xx, The Neighbourhood and more
+                                 </div>
+                             </div>
+                         </div>
+ 
+                     </div>
+                     
+                 </div>
+                <br><br>
             </div>
             <div class="parte--direita fundo--preto">
-
+                
             </div>
+
             
+        
 
         </div>
-        
+        <div class="div--flex container--player flex--direction--row">
+                <div class="div--flex flex--1">
+                    <div class="div--flex flex--1 flex--direction--column justify--content--center">
+                        <div class="nome--musica--atual">Play it safe</div>
+                        <div class="nome--autor">Julia Wolf</div>
+                    </div>
+                    <div class="div--flex flex--3">
+                        <img class="icon--green--heart" src="./src/assets/icons/green-heart.svg"/>
+                    </div>
+                </div>
+                <div class="div--flex flex--1 flex--direction--column">
+                    <div class="item--player">
+                        <img class="icone--player" src="./src/assets/icons/random.svg"/>
+                        <img class="icone--player" src="./src/assets/icons/back-controls-music.svg"/>
+                        <img class="icone--play" src="./src/assets/icons/pause.svg"/>
+                        <img class="icone--player" src="./src/assets/icons/next-controls-music.svg"/>
+                        <img class="icone--repeat" src="./src/assets/icons/repeat.svg"/>
+
+                    </div>
+                    <div class="item--player">
+                        <div class="start--time">
+                            2:50
+                        </div>
+                        <div class="current--time">
+                            <div class="progresso--musica"></div>
+                        </div>
+                        <div class="end--time">
+                            5:48
+                        </div>
+                    </div>
+                </div>
+                <div class="div--flex flex--1">qweqweqwe</div>
+        </div>
     </body>
 </html>
